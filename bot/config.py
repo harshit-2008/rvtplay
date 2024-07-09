@@ -83,7 +83,7 @@ class FILENAME_CONFIG:
     language_order = ['hi', 'ta', 'te', 'bn', 'gu', 'pa', 'as', 'or',
                     'ml', 'mr', 'kn', 'th', 'ja', 'th', 'id', 'ms', 'ko', 'bho', 'bh', 'en']
 
-    default_group_tag = "RV" # Don't change it if you Respect the DEV
+    default_group_tag = "SharkToonsIndia" # Don't change it if you Respect the DEV
 
     #Dict made to add Group Tag according to the user requesting to DL (according to there TG ID) if not in list then takes the default_group_tag
     group_tag_mapping = {
