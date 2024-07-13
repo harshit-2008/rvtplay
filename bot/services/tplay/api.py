@@ -24,7 +24,7 @@ class TPLAY_API():
     API_ALL_CHANNELS = "https://kong-tatasky.videoready.tv/content-detail/pub/api/v1/channels?limit=1000"
     FETCHER = "https://tplayapi.code-crafters.app/321codecrafters/fetcher.json"
     HMAC = "https://tplayapi.code-crafters.app/321codecrafters/hmac.json?random={}".format(random.randint(10,99))
-    HMAC_v2 = "https://chutiya-maharaj-ab-karlo-chori-ye-toxic-iptv-playlist-hei.vercel.app/411.mpd?random={}".format(random.randint(10,99))
+    HMAC_v2 = "https://vod-adaptive-ak.vimeocdn.com/exp=1720572236~acl=%2Fe95d487a-4d0b-42e2-b5c5-52ccf037fa25%2F%2A~hmac=9e9caa0b4e673b64dd7805755c95c8e7b146288726f2f9cef77f7595dfe5ef66/e95d487a-4d0b-42e2-b5c5-52ccf037fa25/v2/playlist/av/primary/playlist.json?pathsig=8c953e4f~t7UAVGjidpg0XY958fe92uW660_k6NHPvaTxuut35Ho&qsr=1&rh=2CZyIs".format(random.randint(10,99))
 
     def __init__(self, channel_slug):
         self.channel_slug = channel_slug
